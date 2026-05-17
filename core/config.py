@@ -1,3 +1,3 @@
 BASE_URL = "https://pahiran.onrender.com/seller/login"
-TIMEOUT=30
+TIMEOUT=120
 BROWSER = "chrome"
