@@ -1,10 +1,10 @@
 import pytest
 from core.driver_factory import get_driver
-from core.config import Config
+import core.config as config
 
 @pytest.fixture
 def driver():
     driver = get_driver()
-    driver.get(Config.BASE_URL)
+    driver.get(config.BASE_URL)
     yield driver
     driver.quit()

@@ -1,3 +1,3 @@
-BASE_URL = "https://demoqa.com/"
-TIMEOUT=10
+BASE_URL = "https://pahiran.onrender.com/seller/login"
+TIMEOUT=30
 BROWSER = "chrome"
